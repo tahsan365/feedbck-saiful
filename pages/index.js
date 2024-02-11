@@ -29,7 +29,19 @@ export default function Home() {
 		<div className='container'>
 			<div className='row d-flex justify-content-center'>
 				<div className='col-lg-8 create-quiz'>
-					<div className='image-box'></div>
+					<div className='image-box'>
+					<Image
+      				src="/feedback.jpg"
+     				 width={2101}
+      				height={888}
+     				 alt="Picture of the author"
+    				/>	<Image
+					src="/feedback.jpg"
+					width={2101}
+					height={888}
+					alt="Picture of the author"
+				  />
+					</div>
 					<div className='quiz-header'>
 						<h1>Share your feedback</h1>
 						<p>Feel free to share your opinion</p>
