@@ -337,8 +337,9 @@ $dark: #556272;
 		border: 1px solid #cccccc;
 		border-radius: 15px;
 		h3 {
-			font-size: 24px;
+			font-size: 20px;
 			color: #424242;
+			margin-bottom: 15px;
 		}
 		p {
 			color: #556272;
@@ -460,7 +461,7 @@ $dark: #556272;
 			cursor: pointer;
 			height: 45px;
 			width: 60px;
-			background: #ffffff no-repeat center;
+			background: #cefd7c no-repeat center;
 			background-image: url(../assets/slider.svg);
 			border: 1px solid #cccccc;
 			border-radius: 5px;
