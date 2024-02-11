@@ -36,12 +36,7 @@ export default function Home() {
      				 width={2101}
       				height={888}
      				 alt="Picture of the author"
-    				/>	<Image
-					src="/feedback.jpg"
-					width={2101}
-					height={888}
-					alt="Picture of the author"
-				  />
+    				/>
 					</div>
 					<div className='quiz-header'>
 						<h1>Share your feedback</h1>
