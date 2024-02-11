@@ -1,0 +1,50 @@
+/* Media Queries */
+@media (max-width: 768px) {
+	.quizCard {
+		flex-direction: column;
+		gap: 5px;
+		.image {
+			order: 1;
+			width: 100%;
+		}
+		.details {
+			order: 2;
+			width: 100%;
+			padding-left: 0;
+			p {
+				-webkit-line-clamp: 3;
+			}
+		}
+	}
+	.quiz-settings {
+		.setting-window {
+			min-width: 100%;
+		}
+	}
+}
+
+@media (max-width: 992px) {
+	.homepage-side .fixed-area {
+		position: relative;
+		right: 0;
+		width: 100%;
+	}
+}
+
+@media (max-width: 576px) {
+	.joinForm {
+		width: 95%;
+	}
+	.group {
+		flex: 1;
+		span:first-child {
+			flex: 1;
+		}
+	}
+}
+
+@media (max-width: 375px) {
+	.quizCard .details .actions .buttons span {
+		display: none;
+	}
+}

@@ -1,38 +1,19 @@
 export default function Home() {
 	return (
 		<div className='container'>
-			<div className='row'>
-				<form>
-					<div className='mb-3'>
-						<label for='exampleInputEmail1' className='form-label'>
-							Email address
-						</label>
-						<input
-							type='email'
-							className='form-control'
-							id='exampleInputEmail1'
-							aria-describedby='emailHelp'
-						/>
-						<div id='emailHelp' className='form-text'>
-							We'll never share your email with anyone else.
-						</div>
+			<div className='row d-flex justify-content-center'>
+				<div className='col-lg-8 create-quiz'>
+					<div className='quiz-header'>
+						<h1>{'title'}</h1>
+						<p>{'description'}</p>
 					</div>
-					<div className='mb-3'>
-						<label for='exampleInputPassword1' className='form-label'>
-							Password
-						</label>
-						<input type='password' className='form-control' id='exampleInputPassword1' />
+
+					<div className='add-questions'>
+						<button className='btn btn-success me-2'>Add Question</button>
+						<button className='btn btn-warning me-2'>Settings</button>
+						<button className='btn btn-dark text-light'>Publish Quiz</button>
 					</div>
-					<div className='mb-3 form-check'>
-						<input type='checkbox' className='form-check-input' id='exampleCheck1' />
-						<label className='form-check-label' for='exampleCheck1'>
-							Check me out
-						</label>
-					</div>
-					<button type='submit' className='btn btn-primary'>
-						Submit
-					</button>
-				</form>
+				</div>
 			</div>
 		</div>
 	)
